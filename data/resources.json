@@ -1,0 +1,316 @@
+{
+  "title": "Mobile Era 2019 - Northern Europe Premier conference for Mobile Developers",
+  "description": "Mobile Era is Norway's and Nordics' first and largest conference for mobile developers. It will be held November 1-2 in Oslo and will feature speakers from all over the world talking about Android, iOS and cross-platform technologies. 2 days, 3 tracks and an awesome conference party.",
+  "image": "images/social-share.jpg",
+  "keywords": "event, mobileera, mobile, oslo, programming, android, ios, developers, hybrid",
+  "dates": "November 7-8, 2019",
+  "partnershipProposition": "https://mobileera.rocks/images/Mobile-Era-2019-Call-For-Sponsors.pdf",
+  "share": "Share",
+  "followOur": "Follow our",
+  "followUs": "Follow us",
+  "emailUs": "Email us",
+  "partnershipResources": "Partnership Resources",
+  "eventResources": "Event Resources",
+  "buyTicket": "Buy ticket",
+  "buyTicketUrl": "https://ti.to/mobile-era/2019/",
+  "signIn": "Sign in",
+  "signOut": "Sign out",
+  "viewHighlights": "View Highlights",
+  "offlineMessage": "You can still work offline.",
+  "cachingComplete": "Caching complete! Future visits will work offline.",
+  "newVersionAvailable": "A new version of this app is available.",
+  "refresh": "Refresh",
+  "position": "Position",
+  "country": "Country",
+  "time": "Time",
+  "faq": "/data/faq.md",
+  "cod": "/data/cod.md",
+  "workshops": "/data/workshops.md",
+  "footer": {
+    "blog": "Blog"
+  },
+  "mySchedule": {
+    "title": "My Schedule",
+    "browseSession": "Browse sessions"
+  },
+  "footerRelBlock": [
+    {
+      "title": "Mobile Era 2018",
+      "links": [
+        {
+          "name": "Website",
+          "url": "http://2018.mobileera.rocks/",
+          "newTab": true
+        },
+        {
+          "name": "Photos",
+          "url": "https://www.facebook.com/pg/mobileeraconf/photos/?tab=album&album_id=991042331084696",
+          "newTab": true
+        },
+        {
+          "name": "Videos",
+          "url": "https://vimeo.com/album/5531183",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Mobile Era 2017",
+      "links": [
+        {
+          "name": "Website",
+          "url": "http://2017.mobileera.rocks/",
+          "newTab": true
+        },
+        {
+          "name": "Photos",
+          "url": "https://www.facebook.com/435283576660577/photos/?tab=album&album_id=740279342827664",
+          "newTab": true
+        },
+        {
+          "name": "Videos",
+          "url": "https://vimeo.com/album/5030425",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Mobile Era 2016",
+      "links": [
+        {
+          "name": "Website",
+          "url": "http://2016.mobileera.rocks/",
+          "newTab": true
+        },
+        {
+          "name": "Photos",
+          "url": "https://www.facebook.com/435283576660577/photos/?tab=album&album_id=567889490066651",
+          "newTab": true
+        },
+        {
+          "name": "Videos",
+          "url": "https://vimeo.com/album/4242302",
+          "newTab": true
+        }
+      ]
+    },
+    {
+      "title": "Event Resources",
+      "links": [
+        {
+          "name": "Partnership Proposition",
+          "url": "https://mobileera.rocks/images/Mobile-Era-2019-Call-For-Sponsors.pdf",
+          "newTab": true
+        },
+        {
+          "name": "Media Kit",
+          "url": "https://github.com/mobileera/corporate-identity",
+          "newTab": true
+        }
+      ]
+    }
+  ],
+  "subscribeNote": "No spam, only the latest news and updates!",
+  "codeOfConduct": "Code of Conduct",
+  "aboutBlock": {
+    "title": "Mobile Era 4th Edition",
+    "callToAction": {
+      "featuredSessions": {
+        "description": "Mobile Era is a conference about mobile development. Our topics: iOS / Android, Mobile web / PWA, Cross-platform / JS-to-Native, IoT / Hardware, Mobile UX / Accessibility",
+        "label": "Explore this year's program",
+        "link": "/schedule/"
+      },
+      "mobileApps": {
+        "description": "Check our official mobile apps:",
+        "android": {
+          "label": "Mobile Era 2019 app on Apple AppStore",
+          "link": "https://itunes.apple.com/us/app/mobile-era-2018/id1438958449"
+        },
+        "ios": {
+          "label": "Mobile Era 2019 app on Google Play",
+          "link": "https://play.google.com/store/apps/details?id=rocks.mobileera.mobileera"
+        }
+      },
+      "howItWas": {
+        "description": "How it all started",
+        "label": "Sweet memories from 2016",
+        "youtubeId": "jN8pxsMPs-Y"
+      },
+      "joinOurSlack": {
+        "description": "We want the crew, speakers, attendees to socialize!",
+        "label": "Join our Slack team",
+        "link": "http://bit.ly/mobileera-slack"
+      }
+    },
+    "statisticsBlock": {
+      "attendees": {
+        "label": "Attendees",
+        "number": "400"
+      },
+      "days": {
+        "label": "Days",
+        "number": "2"
+      },
+      "sessions": {
+        "label": "Sessions",
+        "number": "50"
+      },
+      "tracks": {
+        "label": "Tracks",
+        "number": "3"
+      }
+    }
+  },
+  "ticketsBlock": {
+    "title": "Tickets",
+    "ticketsDetails": "Tickets grant access to all conference sections, coffee breaks, lunch and party. Accommodation is NOT included in the ticket price.",
+    "soldOut": "You missed it!",
+    "notAvailableYet": "Not available yet",
+    "save": "Save ${discount}% today"
+  },
+  "partnersBlock": {
+    "title": "Partners",
+    "button": "Become a partner",
+    "form": {
+      "title": "Become a partner!",
+      "submitLabel": "Submit",
+      "fullName": "Full Name",
+      "companyName": "Company Name"
+    },
+    "toast": "We will contact you soon!"
+  },
+  "featuredVideos": {
+    "title": "Mobile Era 2018 featured videos",
+    "callToAction": {
+      "label": "See all videos",
+      "link": "https://vimeo.com/album/5531183"
+    }
+  },
+  "blog": {
+    "published": "Published",
+    "suggested": "Up next"
+  },
+  "latestPostsBlock": {
+    "title": "The latest news",
+    "callToAction": {
+      "label": "View all stories",
+      "link": "/blog/"
+    }
+  },
+  "speakers": {
+    "skills": "Skills",
+    "previousYears": "Years",
+    "previousYear": "Year"
+  },
+  "speakersBlock": {
+    "title": "Featured speakers",
+    "callToAction": {
+      "label": "View all speakers",
+      "link": "/speakers/"
+    }
+  },
+  "previousSpeakersBlock": {
+    "title": "Previous speakers",
+    "callToAction": {
+      "label": "View all",
+      "link": "/previous-speakers/"
+    }
+  },
+  "galleryBlock": {
+    "title": "Mobile Era 2017 highlights",
+    "description": "Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "callToAction": {
+      "label": "See all photos",
+      "link": "https://www.facebook.com/pg/mobileeraconf/photos/?tab=album&album_id=991042331084696"
+    }
+  },
+  "mapBlock": {
+    "title": "Location"
+  },
+  "subscribeBlock": {
+    "callToAction": {
+      "description": "Get notified about the important conference updates",
+      "label": "Subscribe"
+    },
+    "yourEmail": "Your email",
+    "emailAddress": "Email Address",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "formTitle": "Get the latest updates, insights and news about Mobile Era sent to your inbox.",
+    "emailRequired": "Please enter a valid email address.",
+    "subscribe": "Subscribe",
+    "subscribed": "Subscribed",
+    "close": "Close",
+    "generalError": "Some error has occured. Please, try again later.",
+    "toast": "Successfully subscribed!"
+  },
+  "team": {
+    "description": "Mobile Era is organized by a team of enthusiasts across several technology companies in Oslo. We're passionate about developing mobile apps and want to see a kick-ass event in Oslo for people like ourselves. The organizing committee consists of developers who are also active in organizing open events, conferences and meetups in the Oslo developer community. Although we do this mostly in our spare time and for the fun of it, the conference would not have been possible without our generous sponsors. The conference organization is a non-profit legal organization registered as MOBILE ERA CONFERENCE with organization number 917 217 025. Any profit from the conference will be used for next years event."
+  },
+  "schedule": {
+    "saveSessionsSignedOut": "Sign in to save sessions"
+  },
+  "sessionDetails": {
+    "contentLevel": "Content level",
+    "viewPresentation": "View presentation",
+    "viewVideo": "View video",
+    "speakers": "Speakers"
+  },
+  "speakerDetails": {
+    "sessions": "Sessions"
+  },
+  "notifications": {
+    "default": "Enable notifications",
+    "enabled": "We will miss you but you can unsubscribe anytime",
+    "blocked": "We can't send you notifications right now. Please enable notifications in your browser",
+    "subscribe": "Subscribe",
+    "unsubscribe": "Unsubscribe",
+    "enable": {
+      "label": "Enable",
+      "link": "https://pushassist.com/knowledgebase/how-to-enable-or-disable-push-notifications-on-chrome-firefox-safari-b/"
+    },
+    "toast": {
+      "title": "Open"
+    }
+  },
+  "aboutOrganizerBlock": {
+    "image": "/images/posts/team.jpg",
+    "blocks": [
+      {
+        "title": "What is Mobile Era?",
+        "description": "Mobile Era is organized by a team of enthusiasts across several technology companies in Oslo. We're passionate about developing mobile apps and want to see a kick-ass event in Oslo for people like ourselves. The organizing committee consists of developers who are also active in organizing open events, conferences and meetups in the Oslo developer community.",
+        "callToAction": {
+          "label": "Open team page",
+          "link": "/team"
+        }
+      },
+      {
+        "title": "Be our sponsor",
+        "description": "The community around mobile / web technologies – Android, iOS and hybrid – has gathered great interest both in Norway and worldwide. At Mobile Era, the communities and companies are coming together to create the number one arena for mobile developers for the third year in a row. Be there to take part in the mobile revolution!",
+        "callToAction": {
+          "label": "Sponsoring opportunities (PDF)",
+          "link": "images/Mobile-Era-2018-Call-For-Sponsors.pdf",
+          "newTab": true
+        }
+      }
+    ]
+  },
+  "signInDialog": {
+    "alreadyHaveAccount": "You already have an account",
+    "alreadyUsed": "You've already used",
+    "signInToContinue": {
+      "part1": "Sign in with",
+      "part2": "to continue."
+    }
+  },
+  "filters": {
+    "title": "Filters",
+    "results": "Results",
+    "tags": "Tags",
+    "complexity": "Complexity",
+    "clear": "Clear all"
+  },
+  "addToHomeScreen": {
+    "cta": "Add to Home Screen"
+  }
+}

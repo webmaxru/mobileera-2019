@@ -1,393 +1,200 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-70868154-3"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
+<!doctype html>
+<html lang="en" itemscope itemtype="http://schema.org/Event">
 
-      gtag('config', 'UA-70868154-3');
-    </script>
+<head>
+  <base href="{$ basepath $}">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="{$ description $}">
+  <meta name="keywords" content="{$ keywords $}">
+  <meta name="author" content="{$ organizer.name $}">
+  <meta name="generator" content="Project Hoverboard">
 
-    <title>
-      Mobile Era 2019 - Northern Europe Premier conference for Mobile Developers
-    </title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-  </head>
+  <title>{$ title $}</title>
 
-  <body>
-    <!-- Header -->
-    <section id="header">
-      <header>
-        <h1>Mobile Era 2019</h1>
-        <a href="http://bit.ly/mobile-era-2019-cfp" class="button style2">Call for Presentations</a>
-      </header>
-      <footer>
-        <a href="#banner" class="button scrolly-middle"
-          >November 7-8th, Oslo, Norway. Felix Conference Center.</a
-        >
-      </footer>
-    </section>
+  <link rel="canonical" href="{$ url $}">
 
-    <!-- Banner -->
-    <section id="banner">
-      <header><h2>What is Mobile Era?</h2></header>
-      <p>
-        Mobile Era is a conference about mobile development. Our topics: iOS /
-        Android, Mobile web / PWA, Cross-platform / JS-to-Native, IoT /
-        Hardware, Mobile UX / Accessibility
-      </p>
-      <p>
-        Mobile Era is organized by a team of enthusiasts across several
-        technology companies in Oslo. We're passionate about developing mobile
-        apps and want to see a kick-ass event in Oslo for people like ourselves.
-        The organizing committee consists of developers who are also active in
-        organizing open events, conferences and meetups in the Oslo developer
-        community.
-      </p>
-      <footer>
-        <p>We want the crew, speakers, attendees to socialize!</p>
-        <p>
-          <a href="http://bit.ly/mobileera-slack" class="button style2">
-            Join our Slack team
-          </a>
-        </p>
-        <br>
+  <link rel="icon" href="images/favicon.ico">
 
-        <p>Do you want to jon the hall of fame of Mobile Era speakers?</p>
-        <p></p><a href="http://bit.ly/mobile-era-2019-cfp" class="button style2">Submit your presentation</a></p>
-      </footer>
-      <p>
-        Sponsoring and partnering inqueries:
-        <a href="mailto:contact@mobileera.rocks">contact@mobileera.rocks</a>
-      </p>
-    </section>
+  <meta name="theme-color" content="{$ webapp.themeColor $}">
+  <link rel="manifest" href="manifest.json">
 
-    <!-- Feature 1 -->
-    <article id="first" class="container box style1 right">
-      <a href="#" class="image fit">
-        <img src="images/mobileera-group-2018.jpg" alt="" />
-      </a>
-      <div class="inner">
-        <header>
-          <h2><a href="https://2018.mobileera.rocks">Mobile Era 2018</a></h2>
-        </header>
-        <p>November 1-2nd, Felix Conference Center</p>
-        <ul>
-          <li><a href="https://vimeo.com/album/5531183">Videos</a></li>
-          <li>
-            <a
-              href="https://www.facebook.com/pg/mobileeraconf/photos/?tab=album&album_id=991042331084696"
-              >Photos</a
-            >
-          </li>
-          <li><a href="https://2018.mobileera.rocks/schedule/">Program</a></li>
-          <li><a href="https://2018.mobileera.rocks/speakers/">Speakers</a></li>
-        </ul>
-      </div>
-    </article>
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <!-- fallback for manifest.json -->
+  <meta name="application-name" content="{$ title $}">
+  <!-- fallback for manifest.json -->
 
-    <!-- Feature 2 -->
-    <article class="container box style1 left">
-      <a href="#" class="image fit">
-        <img src="images/mobileera-group-2017.jpg" alt="" />
-      </a>
-      <div class="inner">
-        <header>
-          <h2><a href="https://2017.mobileera.rocks">Mobile Era 2017</a></h2>
-        </header>
-        <p>October 5-6th, Felix Conference Center</p>
-        <ul>
-          <li><a href="https://vimeo.com/album/5030425">Videos</a></li>
-          <li>
-            <a
-              href="https://www.facebook.com/435283576660577/photos/?tab=album&album_id=740279342827664"
-              >Photos</a
-            >
-          </li>
-          <li><a href="https://2017.mobileera.rocks/schedule/">Program</a></li>
-          <li><a href="https://2017.mobileera.rocks/speakers/">Speakers</a></li>
-        </ul>
-      </div>
-    </article>
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="{$ title $}">
 
-    <!-- Feature 1 -->
-    <article class="container box style1 right">
-      <a href="#" class="image fit">
-        <img src="images/mobileera-group-2016.jpg" alt="" />
-      </a>
-      <div class="inner">
-        <header>
-          <h2><a href="https://2016.mobileera.rocks">Mobile Era 2016</a></h2>
-        </header>
-        <p>November 3-4th, Gamle Museet</p>
-        <ul>
-          <li><a href="https://vimeo.com/album/4242302">Videos</a></li>
-          <li>
-            <a
-              href="https://www.facebook.com/435283576660577/photos/?tab=album&album_id=567889490066651"
-              >Photos</a
-            >
-          </li>
-          <li><a href="https://2016.mobileera.rocks/schedule/">Program</a></li>
-          <li><a href="https://2016.mobileera.rocks/speakers/">Speakers</a></li>
-        </ul>
-      </div>
-    </article>
+  <!-- Homescreen icons. -->
+  <link rel="apple-touch-icon" href="images/manifest/icon-48.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/manifest/icon-72.png">
+  <link rel="apple-touch-icon" sizes="96x96" href="images/manifest/icon-96.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="images/manifest/icon-144.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="images/manifest/icon-192.png">
 
-			<!-- Sponsors -->
-			<article class="container box style2">
-        <header>
-          <h2>Our sponsors</h2>
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="images/manifest/icon-144.png">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-tap-highlight" content="no">
 
+  <!-- G+ sharing meta data -->
+  <meta itemprop="name" content="{$ title $}">
+  <meta itemprop="description" content="{$ description $}">
+  <meta itemprop="image" content="{$ image if image.startsWith('http') else (url + image) $}">
+  <meta itemprop="startDate" content="{$ startDate $}">
+  <meta itemprop="endDate" content="{$ endDate $}">
 
-						<div class="sponsors clearfix">
-							<a href="https://forse.no">
-								<img src="images/logos/forse.png" alt="">
-							</a>
-            </div>
-            
+  <!-- Facebook sharing meta data -->
+  <meta property="og:title" content="{$ title $}">
+  <meta property="og:site_name" content="{$ title $}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{$ url $}">
+  <meta property="og:description" content="{$ description $}">
+  <meta property="og:type" content="Event">
+  <meta property="og:image" content="{$ image if image.startsWith('http') else (url + image) $}">
+  <meta property="og:image:type" content="image/jpeg"/>
 
-            <h2>Our partners</h2>
+  <!-- Twitter meta data -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@{$ organizer.twitter $}">
+  <meta name="twitter:title" content="{$ title $}">
+  <meta name="twitter:description" content="{$ description $}">
+  <meta name="twitter:image" content="{$ image if image.startsWith('http') else (url + image) $}">
+  <meta name="twitter:label1" value="{$ location.label $}">
+  <meta name="twitter:data1" value="{$ location.name $}">
+  <meta name="twitter:label2" value="">
+  <meta name="twitter:data2" value="">
 
+  <link rel="dns-prefetch" href="https://apis.google.com">
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  <link rel="preconnect" href="https://fcm.googleapis.com">
+  <link rel="preconnect" href="https://firestore.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script>
 
-						<div class="sponsors clearfix">
-							<a href="https://www.meetup.com/Mobile-Meetup-Oslo/">
-								<img src="images/logos/mobilemeetup.png" alt="">
-              </a>
-              <a href="https://www.meetup.com/Oslo-Progressive-Web-Apps/">
-								<img src="images/logos/oslo-pwa.png" alt="">
-              </a>
-              <a href="https://www.meetup.com/London-Progressive-Web-Apps/">
-								<img src="images/logos/london-pwa.png" alt="">
-              </a>
-              <a href="https://www.meetup.com/framsia/">
-								<img src="images/logos/framsia.png" alt="">
-              </a>
-              <a href="https://www.meetup.com/AngularJS-Oslo/">
-								<img src="images/logos/angular-oslo.png" alt="">
-							</a>
-              <a href="https://www.ecran-pliant.com">
-								<img src="images/logos/ecran-pliant.png" alt="">
-              </a>
-              <a href="https://appjs.co/">
-								<img src="images/logos/appjs.png" alt="">
-              </a>
-              <a href="https://amsterdamjs.com/">
-								<img src="images/logos/jsnation.png" alt="">
-              </a>
-              <a href="https://www.globaldiversitycfpday.com/">
-								<img src="images/logos/gdcfp.png" alt="">
-              </a>
-							<a href="https://addconf.com/?utm_source=referrer&utm_medium=website&utm_campaign=partnership">
-								<img src="images/logos/addc.png" alt="">
-              </a>
-						</div>
+    window.Polymer = { rootPath: '{$ basepath $}' };
+    window.HOVERBOARD = { Elements: {} };
 
-          </header>
-        </article>
+    function loadFirebaseModules(modules) {
+      return Promise.all(
+        modules.map((module) => new Promise((resolve, reject) => {
+          const script = document.createElement('script');
+          script.src = `bower_components/firebase/${module}.js`;
+          script.async = false;
+          script.onload = () => resolve();
+          script.onerror = () => reject();
+          document.head.appendChild(script);
+        })));
+    }
 
+    function loadHoverboardApp() {
+      requestAnimationFrame(() => {
+        const app = document.createElement('hoverboard-app');
+        document.body.appendChild(app);
+      });
+    }
 
-    <!-- Portfolio -->
-    <article class="container box style2">
-      <header>
-        <h2>Why to join Mobile Era?</h2>
-        <p>
-          As developers, we find that most of the exciting projects that we deal
-          with have a small or large mobile component. Mobile technology is
-          developing rapidly and every year, there are new techniques,
-          technologies and frameworks we need to learn. Technology conferences
-          can help us get started on the basic, but in order to excel in the
-          mobile world, we need more advanced topics.
-        </p>
-        <p>
-          With this in mind, we created Mobile Era, Northern Europe's premier
-          conference for mobile developers. At Mobile Era, we bring in world
-          class speakers who go in detail on topics with iOS, Android and Mobile
-          Web development. This is the conference where you can learn about
-          tvOS, bluetooth, Android IoT, Progressive Web Apps, push
-          notifications, machine learning, Swift, Cosmos DB, synching, hybrid
-          apps and much more.
-        </p>
-        <p>
-          Mobile Era is made by the developer community, for the developer
-          community. We want to make a valuable, content filled event for a
-          reasonable price.
-        </p>
-      </header>
-      <div class="inner gallery">
-        <div class="row 0%">
-          <div class="3u 12u(mobile)">
-            <a
-              href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47571370_991049891083940_2029714712735776768_o.jpg?_nc_cat=104&_nc_ht=scontent-iad3-1.xx&oh=32c56e9fc5e93b4d929dabc14de84764&oe=5C9DBB6E"
-              class="image fit"
-            >
-              <img
-                src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47571370_991049891083940_2029714712735776768_o.jpg?_nc_cat=104&_nc_ht=scontent-iad3-1.xx&oh=32c56e9fc5e93b4d929dabc14de84764&oe=5C9DBB6E"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="3u 12u(mobile)">
-            <a
-              href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47473933_991069057748690_7394023531366842368_o.jpg?_nc_cat=109&_nc_ht=scontent-iad3-1.xx&oh=d1a164c3ace9324a95c7308c8dea024f&oe=5CA2BD67"
-              class="image fit"
-            >
-              <img
-                src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47473933_991069057748690_7394023531366842368_o.jpg?_nc_cat=109&_nc_ht=scontent-iad3-1.xx&oh=d1a164c3ace9324a95c7308c8dea024f&oe=5CA2BD67"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="3u 12u(mobile)">
-            <a
-              href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47466674_991056447749951_2989549344006340608_o.jpg?_nc_cat=110&_nc_ht=scontent-iad3-1.xx&oh=b439460ec8510e73ded8ffecc410e77c&oe=5CAE0134"
-              class="image fit"
-            >
-              <img
-                src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47466674_991056447749951_2989549344006340608_o.jpg?_nc_cat=110&_nc_ht=scontent-iad3-1.xx&oh=b439460ec8510e73ded8ffecc410e77c&oe=5CAE0134"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="3u 12u(mobile)">
-            <a
-              href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47312595_991059401082989_2611246983897153536_o.jpg?_nc_cat=100&_nc_ht=scontent-iad3-1.xx&oh=35fa8603dd7bcb451f9cbb05a261ec69&oe=5CB0F8B9"
-              class="image fit"
-            >
-              <img
-                src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47312595_991059401082989_2611246983897153536_o.jpg?_nc_cat=100&_nc_ht=scontent-iad3-1.xx&oh=35fa8603dd7bcb451f9cbb05a261ec69&oe=5CB0F8B9"
-                alt=""
-              />
-            </a>
-          </div>
+    loadFirebaseModules([
+      'firebase-app',
+      'firebase-firestore',
+      'firebase-auth',
+      'firebase-messaging',
+    ])
+      .then(() => {
+        firebase.initializeApp({
+          apiKey: '{$ firebase.apiKey $}',
+          authDomain: '{$ firebase.authDomain $}',
+          databaseURL: '{$ firebase.databaseURL $}',
+          projectId: '{$ firebase.projectId $}',
+          storageBucket: '{$ firebase.storageBucket $}',
+          messagingSenderId: '{$ firebase.messagingSenderId $}',
+        });
 
-          <div class="3u 12u(mobile)">
-            <a
-              href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47243985_991045311084398_9072774712337104896_o.jpg?_nc_cat=104&_nc_ht=scontent-iad3-1.xx&oh=506a34ea545a6437bba45b04b6c06541&oe=5C6FAC49"
-              class="image fit"
-            >
-              <img
-                src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47243985_991045311084398_9072774712337104896_o.jpg?_nc_cat=104&_nc_ht=scontent-iad3-1.xx&oh=506a34ea545a6437bba45b04b6c06541&oe=5C6FAC49"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="3u 12u(mobile)">
-            <a
-              href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47382745_991068924415370_7942779919249965056_o.jpg?_nc_cat=110&_nc_ht=scontent-iad3-1.xx&oh=ddf4bebdb1285dd24f4174a1b0914bcf&oe=5C9F7D6A"
-              class="image fit"
-            >
-              <img
-                src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47382745_991068924415370_7942779919249965056_o.jpg?_nc_cat=110&_nc_ht=scontent-iad3-1.xx&oh=ddf4bebdb1285dd24f4174a1b0914bcf&oe=5C9F7D6A"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="3u 12u(mobile)">
-            <a
-              href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47445413_991057347749861_6892002306129133568_o.jpg?_nc_cat=103&_nc_ht=scontent-iad3-1.xx&oh=c8f92c96ccdebb0e297c37bb5d08e99f&oe=5CB067CA"
-              class="image fit"
-            >
-              <img
-                src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47445413_991057347749861_6892002306129133568_o.jpg?_nc_cat=103&_nc_ht=scontent-iad3-1.xx&oh=c8f92c96ccdebb0e297c37bb5d08e99f&oe=5CB067CA"
-                alt=""
-              />
-            </a>
-          </div>
-          <div class="3u 12u(mobile)">
-            <a
-              href="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47384066_991043094417953_4602850068108673024_o.jpg?_nc_cat=107&_nc_ht=scontent-iad3-1.xx&oh=f9bc96c9dceef6159ffbaf5b8be61c22&oe=5C6DCB44"
-              class="image fit"
-            >
-              <img
-                src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/47384066_991043094417953_4602850068108673024_o.jpg?_nc_cat=107&_nc_ht=scontent-iad3-1.xx&oh=f9bc96c9dceef6159ffbaf5b8be61c22&oe=5C6DCB44"
-                alt=""
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-    </article>
+        const firestore = firebase.firestore();
+        firestore.settings({ timestampsInSnapshots: true });
+        firebase.firestore()
+          .enablePersistence({ experimentalTabSynchronization: true })
+          .catch(() => {
+            console.warn('DB offline support not available'); // eslint-disable-line no-console
+          });
 
-    <!-- Contact -->
-    <article class="container box style3">
-      <header>
-        <h2>Get Mobile Era news first!</h2>
-        <p>
-          Join our mailing list. We send only very important information about
-          our conference.
-        </p>
-      </header>
-      <form
-        action="https://github.us12.list-manage.com/subscribe/post?u=fa5d127dc57bce862da2801bd&amp;id=a6547c75c0"
-        method="post"
-      >
-        <div class="row 50%">
-          <div class="12u$">
-            <input type="email" class="text" name="EMAIL" placeholder="Email" />
-          </div>
-          <div class="12u$">
-            <ul class="actions">
-              <li><input type="submit" value="Subscribe" /></li>
-            </ul>
-          </div>
-        </div>
-      </form>
-    </article>
+        // eslint-disable-next-line no-console
+        console.log('Firebase App is ready!');
+      })
+      .then(() => loadHoverboardApp());
 
-    <section id="footer">
-      <ul class="icons">
-        <li>
-          <a href="https://twitter.com/mobileeraconf" class="icon fa-twitter">
-            <span class="label">Twitter</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://facebook.com/mobileeraconf" class="icon fa-facebook">
-            <span class="label">Facebook</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.vimeo.com/mobileera" class="icon fa-vimeo">
-            <span class="label">YouTube</span>
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.linkedin.com/company/mobile-era-conference/"
-            class="icon fa-linkedin"
-          >
-            <span class="label">YouTube</span>
-          </a>
-        </li>
-        <li>
-          <a href="mailto:contact@mobileera.rocks" class="icon fa-envelope">
-            <span class="label">Email</span>
-          </a>
-        </li>
-      </ul>
-      <div class="copyright">
-        <ul class="menu">
-          <li>&copy; Mobile Era Conference</li>
-          <li>
-            Mobile Era Conference is a registered non-profit organization.
-            <a href="https://w2.brreg.no/enhet/sok/detalj.jsp?orgnr=917217025"
-              >Reg.nr. 917217025</a
-            >
-          </li>
-          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-        </ul>
-      </div>
-    </section>
-  </body>
+  </script>
+
+  <script src="bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+  <link rel="import" href="src/hoverboard-app.html">
+
+  <style>
+
+    html, body {
+      min-height: 100%;
+      height: 100%;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    *,
+    *:before,
+    *:after {
+      box-sizing: border-box;
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* styling for render while resources are loading */
+    hoverboard-app[unresolved] {
+      padding: 0 16px;
+      display: block;
+      line-height: 68px;
+      text-align: center;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      color: #202020;
+      overflow: visible;
+    }
+  </style>
+
+</head>
+
+<body>
+
+<!--<hoverboard-app unresolved>{$ title $}</hoverboard-app>-->
+
+<noscript>
+  Please enable JavaScript to view this website.
+</noscript>
+
+<script>
+  window.performance && performance.mark && performance.mark('index.html');
+
+  window.onload = function () {
+    const indexRenderTime = window.measureDuration && window.measureDuration('index.html');
+    if (indexRenderTime) {
+      ga('send', 'timing', 'index.html', 'render', indexRenderTime);
+    }
+  };
+
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault();
+    uiActions.setAddToHomeScreen(e);
+  });
+</script>
+
+</body>
+
 </html>

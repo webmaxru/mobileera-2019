@@ -1,0 +1,15 @@
+{
+  "basepath": "/",
+  "url": "http://localhost:3000/",
+  "analytics": "UA-70868154-3",
+  "prefix": "/",
+  "firebase": {
+    "apiKey": "AIzaSyAwCQ8z-pF_Jqy4eNgxzGfe_CZVtjh1QgY",
+    "authDomain": "mobileera-2019.firebaseapp.com",
+    "databaseURL": "https://mobileera-2019.firebaseio.com",
+    "projectId": "mobileera-2019",
+    "storageBucket": "mobileera-2019.appspot.com",
+    "messagingSenderId": "782015027227"
+  },
+  "googleMapApiKey": "AIzaSyDfSSni61obigR8vpYa_GjIFZsFKUkXRew"
+}
