@@ -1,4 +1,4 @@
-It is official. Mobile Era 2018 is going to take place in **Oslo, on November 1-2**.
+It is official. Mobile Era 2019 is going to take place in **Oslo, on November 7-8**.
 
 ## What to expect?
 
@@ -10,7 +10,7 @@ It is official. Mobile Era 2018 is going to take place in **Oslo, on November 1-
 **Unique networking and party.**
 
 <div layout horizontal center-justified>
-<a href="https://ti.to/mobile-era/2018" rel="noopener noreferrer">
+<a href="https://ti.to/mobile-era/2019" rel="noopener noreferrer">
   <paper-button primary>Buy ticket</paper-button>
 </a>
 </div>

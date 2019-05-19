@@ -10,7 +10,7 @@
     "predeploy": "cd ./functions && npm i",
     "deploy": "gulp deploy",
     "deploy:prod": "cross-env BUILD_ENV=production gulp deploy",
-    "firestore:init": "firebase firestore:delete -r --all-collections && firebase functions:config:set schedule.enabled=true && firebase deploy --except hosting && babel-node ./internals/import-default-data",
+    "firestore:init": "firebase firestore:delete -r --all-collections -y && firebase functions:config:set schedule.enabled=true && firebase deploy --except hosting && babel-node ./internals/import-default-data",
     "firestore:copy": "babel-node ./internals/firestore-copy-data",
     "postinstall": "bower install",
     "serve": "gulp serve",
@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "autotrack": "^2.4.1",
+    "firestore-export-import": "^0.1.7",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
@@ -39,8 +40,8 @@
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-plugin-html": "^4.0.1",
     "eslint-plugin-polymer": "^0.1.0",
-    "firebase-admin": "^6.1.0",
-    "firebase-tools": "^6.0.0",
+    "firebase-admin": "^7.3.0",
+    "firebase-tools": "^6.7.2",
     "gulp": "^4.0.0",
     "gulp-cli": "^2.0.0",
     "gulp-eslint": "^4.0.0",

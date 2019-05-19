@@ -9,8 +9,8 @@
   "endDate": "2019-11-08T19:00:00+01:00",
   "webapp": {
     "shortName": "Mobile Era",
-    "themeColor": "#82163f",
-    "backgroundColor": "#2956a3"
+    "themeColor": "#300000",
+    "backgroundColor": "#300000"
   },
   "dateFormat": {
     "locale": "en-US"
@@ -25,24 +25,9 @@
       "label": "Home"
     },
     {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "Schedule"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/",
-      "label": "Speakers"
-    },
-    {
       "route": "team",
       "permalink": "/team/",
       "label": "Team"
-    },
-    {
-      "route": "workshops",
-      "permalink": "/workshops/",
-      "label": "Workshops"
     }
   ],
   "heroSettings": {
