@@ -19,7 +19,7 @@ deploy:
   skip_cleanup: true
   on:
     branch: master
-  project: hoverboard-master
+  project: mobileera-2019
   token:
     secure: QnwfzLG9/G6VjlHTXYl1kvdvyVPMoKTv2Yp/9PPvVXdMiVLyzlyZZ7RkQ7ptPkOVGUszu7KkFEcQh8UkOogF5VGUzX9WRn3gdj4i4CoT+xDyyFrTU05qTAJQX4SIc2sz70zUwHdw3+Vj0cFz4dcdF/BtaGt2at3FoLudhhcJH+ICCJ6oReJ2Y6gB27rg832brJvfuhYuieKpjnhru056YHsyVhn4hyFs3f4gfDPSt8aAeL8hP/TpzMbMSvRYorJOX3f7qwQoCQ8UojfI2bewMeTWp/FXFwSknU1vUbxtoiwNlmxDJUU6HzRlZGKdgLJfHVIYYEGcggHo78vTJD0MX2hJjAvLiATbGmO+Fc4cfe5tj4kGXjdmbf+LsVNw9xV3gf1utcSQYERpo00+t8l9IWMBOOwpZ2v+z3BbFuGTY2rePVR5i/Tx6g/l/u05Zr8MkEgjW6aokbuUeEHgGqkrmuPa/M7aZtF0Dx+5OnvDXYXesYmNAvIVIX5x8HJhCW8Gop+AoQTHDEGvRg6kfc2sPA7gRnZ2x3Zyxba/IZHd8lvdEph4Jd0UXYXXw4ncIuDuW1CiYDWG232H4uzguM+92dFnptqtj8ImoueDL5r9APtC1iWFCpnQwN+/pCSwmXQPEXMYq5r1b0hkbb9300R2spqylFQopSm5UJNIMWUwAD4=
 - provider: firebase
