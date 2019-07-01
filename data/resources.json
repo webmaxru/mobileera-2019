@@ -139,7 +139,7 @@
       "joinOurSlack": {
         "description": "We want the crew, speakers, attendees to socialize!",
         "label": "Join our Slack team",
-        "link": "http://bit.ly/mobileera-slack"
+        "link": "https://bit.ly/mobileera-slack"
       }
     },
     "statisticsBlock": {
