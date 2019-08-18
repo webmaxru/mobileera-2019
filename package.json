@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "autotrack": "^2.4.1",
-    "firestore-export-import": "^0.1.7",
+    "node-firestore-import-export": "^0.14.0",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0"
   },
