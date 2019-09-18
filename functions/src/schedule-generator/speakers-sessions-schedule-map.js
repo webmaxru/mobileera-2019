@@ -23,6 +23,9 @@ function sessionsSpeakersScheduleMap(sessionsRaw, speakersRaw, scheduleRaw) {
                 const subSessionsLen = timeslot.sessions[sessionIndex].items.length;
                 for (let subSessionIndex = 0; subSessionIndex < subSessionsLen; subSessionIndex++) {
                     const sessionId = timeslot.sessions[sessionIndex].items[subSessionIndex];
+                    if (sessionsRaw.hasOwnProperty(sessionId)) {
+                        console.error(`Unknown session ${sessionId}`)
+                    }
                     const subsession = sessionsRaw[sessionId];
                     const mainTag = subsession.tags ? subsession.tags[0] : 'General';
                     const endTimeRaw = timeslot.sessions[sessionIndex].extend
