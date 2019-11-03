@@ -151,8 +151,8 @@
         </paper-tab>
         {% endfor %}
 
-<!--         <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
- -->
+         <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
+ 
         <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
@@ -217,7 +217,7 @@
             <span class="profile-action" role="button" on-tap="signOut">{$ signOut $}</span>
           </div>
         </div>
-      </paper-menu-button> -->
+      </paper-menu-button>
 
        <paper-icon-button
         icon="hoverboard:account"
