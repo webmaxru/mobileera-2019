@@ -203,7 +203,6 @@
     ],
     "allowedProvidersUrl": [
       "https://accounts.google.com",
-      "https://www.facebook.com",
       "https://twitter.com"
     ]
   },
