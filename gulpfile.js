@@ -131,9 +131,12 @@ function build() {
         return waitFor(normalizeStream);
       })
       .then(() => {
-        return gulp.src('service-worker-kill-switch.js')
-        .pipe(rename({ basename: 'service-worker'}))
-        .pipe(gulp.dest(config.build.rootDirectory));
+        return gulp.src(prependPath(
+          config.build.rootDirectory,
+          'service-worker.js'
+        ))
+          .pipe(uglify())
+          .pipe(gulp.dest(config.build.rootDirectory));
       })
       .then(() => {
         console.log('Build complete!');
