@@ -5,6 +5,7 @@ module.exports = {
     '/bower_components/webcomponentsjs/*.js',
     '/bower_components/firebase/firebase.js',
     '/bower_components/firebase/firebase-firestore.js',
+    '/images/*',
     '/images/**/*',
     '/scripts/**/*',
     '/data/**/*',
